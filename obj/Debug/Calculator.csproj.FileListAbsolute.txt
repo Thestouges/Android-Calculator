@@ -1,0 +1,15 @@
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\bin\Debug\Calculator.dll
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\bin\Debug\Calculator.Calculator.apk
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\bin\Debug\Calculator.Calculator-Signed.apk
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\Calculator.dll
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\android\bin\Calculator.Calculator.apk
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\res\layout\main.xml
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\res\values\strings.xml
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\res\drawable\icon.png
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\R.cs.flag
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\uploadflags.txt
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\bin\Debug\Calculator.dll.mdb
+C:\Users\SilentSky\documents\visual studio 2017\Projects\Calculator\Calculator\obj\Debug\android\assets\Calculator.dll.mdb

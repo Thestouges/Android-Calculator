@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/gridLayout1">
+    <GridLayout
+        p1:id="@+id/gridLayout2"
+        p1:layout_row="0"
+        p1:layout_column="0"
+        p1:layout_rowWeight="2"
+        p1:layout_columnSpan="4"
+        p1:layout_width="match_parent">
+        <TextView
+            p1:text=""
+            p1:id="@+id/display_text_input"
+            p1:layout_column="0"
+            p1:layout_row="0"
+            p1:layout_columnWeight="1"
+            p1:layout_columnSpan="4"
+            p1:gravity="top|left"
+            p1:layout_rowWeight="1"
+            p1:textSize="20dp"
+            p1:textColor="@android:color/white" />
+        <TextView
+            p1:text="0"
+            p1:id="@+id/display_text"
+            p1:layout_column="1"
+            p1:layout_row="0"
+            p1:layout_columnWeight="1"
+            p1:layout_columnSpan="4"
+            p1:gravity="bottom|right"
+            p1:layout_rowWeight="1"
+            p1:textSize="50dp"
+            p1:textColor="@android:color/white" />
+    </GridLayout>
+    <Button
+        p1:text="&lt;-"
+        p1:id="@+id/Button_del"
+        p1:layout_column="0"
+        p1:layout_row="1"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="C"
+        p1:id="@+id/Button_clear"
+        p1:layout_column="1"
+        p1:layout_row="1"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="+/-"
+        p1:id="@+id/Button_neg"
+        p1:layout_column="2"
+        p1:layout_row="1"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="√"
+        p1:id="@+id/Button_sqrt"
+        p1:layout_column="3"
+        p1:layout_row="1"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="7"
+        p1:id="@+id/Button_7"
+        p1:layout_column="0"
+        p1:layout_row="2"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="8"
+        p1:id="@+id/Button_8"
+        p1:layout_column="1"
+        p1:layout_row="2"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="9"
+        p1:id="@+id/Button_9"
+        p1:layout_column="2"
+        p1:layout_row="2"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="/"
+        p1:id="@+id/Button_div"
+        p1:layout_column="3"
+        p1:layout_row="2"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="4"
+        p1:id="@+id/Button_4"
+        p1:layout_column="0"
+        p1:layout_row="3"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="5"
+        p1:id="@+id/Button_5"
+        p1:layout_column="1"
+        p1:layout_row="3"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="6"
+        p1:id="@+id/Button_6"
+        p1:layout_column="2"
+        p1:layout_row="3"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="x"
+        p1:id="@+id/Button_multiply"
+        p1:layout_column="3"
+        p1:layout_row="3"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="1"
+        p1:id="@+id/Button_1"
+        p1:layout_column="0"
+        p1:layout_row="4"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="2"
+        p1:id="@+id/Button_2"
+        p1:layout_column="1"
+        p1:layout_row="4"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="3"
+        p1:id="@+id/Button_3"
+        p1:layout_column="2"
+        p1:layout_row="4"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="-"
+        p1:id="@+id/Button_subtract"
+        p1:layout_column="3"
+        p1:layout_row="4"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="0"
+        p1:id="@+id/Button_0"
+        p1:layout_column="0"
+        p1:layout_row="5"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="."
+        p1:id="@+id/Button_decimal"
+        p1:layout_column="1"
+        p1:layout_row="5"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="="
+        p1:id="@+id/Button_solve"
+        p1:layout_column="2"
+        p1:layout_row="5"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+    <Button
+        p1:text="+"
+        p1:id="@+id/Button_add"
+        p1:layout_column="3"
+        p1:layout_row="5"
+        p1:layout_columnWeight="1"
+        p1:layout_columnSpan="1"
+        p1:layout_rowWeight="1"
+        p1:textSize="50dp"
+        p1:textColor="@android:color/white" />
+</GridLayout>
